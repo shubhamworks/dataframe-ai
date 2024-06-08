@@ -1,0 +1,10 @@
+A system prompt is a way to provide context, instructions, and guidelines to Claude before presenting it with a question or task. By using a system prompt, you can set the stage for the conversation, specifying Claude’s role, personality, tone, or any other relevant information that will help it better understand and respond to the user’s input.
+
+System prompts can include:
+    1. Task instructions and objectives
+    2. Personality traits, roles, and tone guidelines
+    3. Contextual information for the user input
+    4. Creativity constraints and style guidance
+    5. External knowledge, data, or reference material
+    6. Rules, guidelines, and guardrails
+    7. Output verification standards and requirements
