@@ -1,0 +1,8 @@
+DataFrame:
+{% for df in context["dfs"] -%}
+dfs[{{ loop.index0 }}]: {{ df.shape[0] }}x{{ df.shape[1] }}
+{{df.sample(n=0).to_csv(index=False)}}
+{% endfor %}
+Use the given dataframe to refine the query - {{query}}, for precise and accurate response. Pay attention to small details and nuances.
+
+Rephrased query:
